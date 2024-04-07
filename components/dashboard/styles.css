@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap;700&family=Sacramento&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.illustration {
+    font-family: "Sacramento";
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: -2.7rem;
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: -2rem;
+}
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 150px;
+    margin-left: 70rem;
+    margin-top: -1.7rem;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+    font-size: medium;
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.briefcase-logo img {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    width: 40px;
+    margin-left: 80rem;
+    margin-top: -3rem;
+}
+
+.profile-logo img {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 83rem;
+    margin-top: -3.1rem;
+}
+
+.finish-btn {
+    background-color: #fe79ae;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 87rem;
+    transform: translatey(-2.2rem);
+}
+
+.finish-btn:hover {
+    background-color: #fb1671;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 8rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #6e6e6e;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.verification-section {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.verification-section h2 {
+    font-size: 40px;
+    margin-top: 6rem;
+}
+
+.mail-logo img {
+    width: 130px;
+    height: 130px;
+    margin-top: -2rem;
+}
+
+.email-content1 {
+    color: #6e6e6e;
+    font-size: 19px;
+}
+
+.email-content1 .email a {
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.resend-mail {
+    color: #6e6e6e;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.resend-mail a {
+    color: #fb1671;
+    margin-bottom: -2rem;
+}
+
+.resend-mail p {
+    margin-bottom: -0.6rem;
+}
+
+.resend-mail a {
+    font-weight: bold;
+}
+
+.section p {
+    margin-top: 2rem;
+    font-size: 19px;
+    color: #6e6e6e;
+}
+
+.section a {
+    color: #fb1671;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links {
+    margin-top: 5rem;
+}
+
+.social-content {
+    margin-top: 2.8rem;
+}
+
+.social-content i {
+    margin-left: 4.8rem;
+}
+
+.links .social-content i {
+    font-size: x-large;
+    margin-right: -4rem;
+}
+
+.social-content a {
+    font-family: "Sacramento";
+    font-weight: 600;
+    font-size: 45px;
+    margin-left: 5rem;
+    color: #fb1671;
+}
+
+.social-content p {
+    width: 20rem;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 5rem;
+    color: #000000;
+}
+
+.footer-page {
+    background-color: #ebebeb66;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-links i {
+    width: 20rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    margin-bottom: 3.8rem;
+    margin-top: 2.3rem;
+}
+
+.column h3 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 25px;
+}
+
+.column ul li a {
+    color: #282828;
+    text-decoration: none;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.rights {
+    margin-right: 70rem;
+    color: #6e6e6e;
+}
+
+.counts {
+    margin-top: -2.2rem;
+    margin-left: 70rem;
+    color: #6e6e6e;
+}
+
+.counts span {
+    color: #000000;
+    font-weight: bold;
+}
+
+.counts i {
+    transform: translateY(-2.5rem);
+    margin-left: 15rem;
+    font-size: 2rem;
+    color: #fb1671;
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Sacramento&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.illustration {
+    text-align: center;
+    color: #87620a;
+}
+
+.illustration h2 {
+    margin-right: 10rem;
+    text-align: left;
+    transform: translateX(6.5rem);
+}
+
+.illustration a1 {
+    font-family: "Sacramento";
+    font-weight: 600;
+    font-size: 35px;
+    margin-right: 15rem;
+    margin-top: 10px;
+}
+
+.illustration a {
+    color: #87620a;
+}
+
+.illustration p {
+    margin-right: 14rem;
+    font-size: medium;
+    transform: translatey(2rem);
+}
+
+.illustration img {
+    width: 540px;
+    transform: translatey(3rem);
+}
+
+.left-section {
+    background-color: #f2d184;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 22px;
+    width: 500px;
+    margin-right: 17rem;
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 18px;
+}
+
+.right-section {
+    margin-right: 20rem;
+}
+
+form {
+    max-width: 400px;
+    height: 100%;
+}
+
+.new-member {
+    margin-left: 28rem;
+    width: 15rem;
+}
+
+.forgot-password {
+    margin-left: 22rem;
+    width: 15rem;
+    transform: translatey(-1.2rem);
+}
+
+
+/* Style the input fields */
+
+.sign-up-form label {
+    font-weight: 700;
+}
+
+.sign-up h2 {
+    margin-top: 3rem;
+    font-weight: 800;
+    font-size: x-large;
+    margin-bottom: 5rem;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 15px;
+    width: 28rem;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+
+/* Style the submit button */
+
+button {
+    background-color: #fb1671;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}

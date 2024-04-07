@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap;700&family=Sacramento&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.illustration {
+  font-family: "Sacramento";
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: -0.5rem;
+  margin-top: -0.75rem;
+  margin-bottom: -1rem;
+  color: #fb1671;
+}
+
+.arrow-circle {
+  width: 45px;
+  height: 45px;
+  background-color: #ecececc6;
+  display: flex;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3rem;
+  transform: translatex(6rem);
+}
+
+.arrow {
+  color: #000000;
+  font-size: 22px;
+}
+
+.arrow-circle a {
+  text-decoration: none; /* Remove underline */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.option {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.option-image {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.option-content {
+  border-radius: 20px;
+  padding: 1rem;
+  border: 2px solid #e3e2e2;
+  height: 15rem;
+  position: relative;
+}
+
+.option-content:hover {
+  border-radius: 20px;
+  padding: 1rem;
+  border: 2px solid #fb1671;
+  height: 15rem;
+  position: relative;
+}
+
+.option-content p {
+  font-size: small;
+  color: #656464;
+  display: none;
+  margin-top: -1.5rem;
+}
+
+.option-content:hover p {
+  display: block;
+}
+
+.option-content img{
+    width: 250px;
+    height: 150px;
+}
+.option-content:hover img{
+  width: 250px;
+  height: 150px;
+  margin-top: -7rem;
+}
+.option-content h3 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 2px solid #e3e2e2;
+  margin-top: 14.3rem;
+  margin-left: 8rem;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #fb1671;
+  border-style: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.finish-btn {
+  margin-top: 3rem;
+  background-color: #fe79ae;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 5.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.finish-btn:hover {
+  background-color: #fb1671;
+}
+
+.return-page2 {
+  color: #000000;
+  font-weight: bolder;
+  font-size: medium;
+  margin-top: -3rem;
+  margin-bottom: -2.5rem;
+}
+
+.return-page {
+  color: #888;
+  font-weight: bolder;
+  font-size: smaller;
+  margin-top: -0.3rem;
+  margin-left: 0.4rem;
+  margin-bottom: -5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .options {
+    display: flow-root;
+  }
+}

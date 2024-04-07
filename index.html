@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="illustration">
+                <a1>dribbble</a1>
+                <h2>Discover the world’s top Designers & Creatives.</h2>
+                <img src="assets/Illustration.png" alt="Illustration" />
+                <p>Art by <a href="#">Peter Tarka</a></p>
+            </div>
+        </div>
+        <form class="right-section">
+            <div class="sign-up-form">
+                <div class="already-member">
+                    <p>Already a member? <a href="components/sign-in/sign-in.html">Sign In</a></p>
+                </div>
+                <div class="sign-up">
+                    <h2>Sign up to Dribbble</h2>
+                    <div class="form-wrapper">
+                        <div class="name-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="username-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" placeholder="Username" required>
+                        </div>
+                    </div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="account@reforedesign" required>
+                    <label for="psw">Password</label>
+                    <input type="password" id="psw" name="psw" placeholder="6+ characters" required>
+                </div>
+            </div>
+            <div class="smallprint">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                <label for="rememberMe">
+                    Creating an account means you're okay with our <a href="#">Terms of Service</a>, <a href="#">Privacy
+                        Policy</a>, and our default <a href="#">Notification
+                        Settings.</a></label>
+            </div>
+            <a href="components/profile-page/profile-page.html">
+            <button type="submit" onclick="lsRememberMe()">Create
+                Account</button>
+            </a>
+            <div class="recaptcha">
+                This site is protected by reCAPTCHA and the Google<br>
+                <a href="#">Privacy Policy</a> and <a href="#">Terms of
+                    Service</a> apply.
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

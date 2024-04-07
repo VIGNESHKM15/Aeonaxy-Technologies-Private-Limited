@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="illustration">
+                <a1>dribbble</a1>
+                <h2>Discover the world’s top Designers & Creatives.</h2>
+                <img src="/assets/Illustration.png" alt="Illustration" />
+                <p>Art by <a href="#">Peter Tarka</a></p>
+            </div>
+        </div>
+        <form class="right-section">
+
+            <div class="sign-up-form">
+                <div class="new-member">
+                    <p>Don't have an account? <a href="/index.html">Sign Up</a></p>
+                </div>
+
+                <div class="sign-up">
+                    <h2>Sign in to Dribbble</h2>
+
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+
+                    <label for="psw">Password</label>
+                    <input type="password" id="psw" name="psw" placeholder="6+ characters" required>
+                </div>
+            </div>
+
+            <div class="smallprint">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                <label for="rememberMe">
+                    Remember Me</label>
+            </div>
+            <div class="forgot-password">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" onclick="lsRememberMe()">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>

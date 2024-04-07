@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What brings you to Dribbble?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="illustration">
+    <a>dribbble</a>
+  </div>
+  <div class="arrow-circle">
+    <a href="/components/profile-page/profile-page.html" class="arrow">&#60;</a>
+  </div>
+  <div class="container">
+    <h1>What brings you to Dribbble?</h1>
+    <p>Select the options that best describe you. Don't worry, you can explore other options later.</p>
+    <div class="options">
+      <div class="option">
+        <div class="option-content">
+          <img src="/assets/Role-1.jpeg" alt="Role-1" />
+          <h3>I'm a designer looking to share my work</h3>
+          <p id="additional-content">With over 7 million shots from a vast community of designers, Dribbble is the
+            leading source for design inspiration.</p>
+          <label class="container">
+            <input type="checkbox" onchange="toggleAdditionalContent(this)">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="option-content">
+          <img src="/assets/Role-2.png" alt="Role-2" />
+          <h3>I'm looking to hire a designer</h3>
+          <p id="additional-content">With over 7 million shots from a vast community of designers, Dribbble is the
+            leading source for design inspiration.</p>
+          <label class="container">
+            <input type="checkbox" onchange="toggleAdditionalContent(this)">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="option">
+        <div class="option-content" id="contentToMove">
+          <img src="/assets/Role-3.png" alt="Role-3">
+          <h3>I'm looking for design inspiration</h3>
+          <p>With over 7 million shots from a vast community of designers, Dribbble is the leading source for design
+            inspiration.</p>
+          <label class="container">
+            <input type="checkbox" onchange="toggleAdditionalContent(this)">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="return-page2">
+      <p id="press-returns-text" style="display: none;">Anything else? You can select multiple</p>
+    </div>
+    <a href="/components/dashboard/dashboard.html">
+      <button class="finish-btn">Finish</button>
+    </a>
+    <div class="return-page">
+      <p id="press-returns-text2" style="display: none;">or Press RETURN</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

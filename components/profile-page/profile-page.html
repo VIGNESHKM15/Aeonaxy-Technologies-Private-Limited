@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Your Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="illustration">
+    <a>dribbble</a>
+  </div>
+  <div class="container">
+    <div class="containers">
+      <a>Welcome! Let's create your profile</a>
+    </div>
+    <p>Let others get to know you better! You can do these later</p>
+    <div class="avatar-section">
+      <h2>Add an avatar</h2>
+      <div class="avatar-container">
+        <div class="avatar-upload">
+          <!-- Change the label to be associated with the file input -->
+          <label for="avatar-input" id="avatar-label">
+            <span>+</span>
+          </label>
+          <input type="file" id="avatar-input" accept="image/*" style="display: none;">
+        </div>
+        <!-- Change the link to trigger the click event on the file input -->
+        <a class="Neon-input-choose-btn blue" id="choose-image-btn" >Choose image</a>
+        <p id="or-return-text"> > Or choose one of our defaults</p>
+      </div>
+    </div>
+
+    <div class="location-section">
+      <h2>Add your location</h2>
+      <input type="text" placeholder="Enter a location">
+    </div>
+<a href="/components/role/role.html">
+    <button class="next-btn" >Next</button>
+</a>
+    <div class="return-page">
+      <p id="press-return-text" style="display: none;">or Press RETURN</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
