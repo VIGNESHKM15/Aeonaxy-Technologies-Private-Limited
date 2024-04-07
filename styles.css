@@ -250,9 +250,9 @@ button:hover {
         width: 20rem;
         margin-top: 3rem;
         font-weight: 800;
-        font-size: x-large;
+        font-size: 1.6rem;
         margin-bottom: 5rem;
-        margin-left: 6rem;
+        margin-left: 5rem;
     }
 
     input[type="text"],
