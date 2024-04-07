@@ -209,19 +209,17 @@ button:hover {
 
     .left-section {
         width: 468px;
-        margin-left: -8rem;
     }
 
     .right-section {
         width: 1px;
-        margin-left: -4rem;
     }
 
     .already-member {
         font-size: 19px;
         margin-top: 1rem;
         margin-left: 4rem;
-        transform: translatex(5.5rem);
+        transform: translatex(9.5rem);
     }
 
     .illustration {
@@ -274,7 +272,7 @@ button:hover {
 
     input[type="text"],
     input[type="password"] {
-        width: 22.5rem;
+        width: 26.2rem;
         margin-left: 2rem;
     }
 
