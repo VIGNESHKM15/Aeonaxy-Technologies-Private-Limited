@@ -32,6 +32,7 @@ body {
 .container p {
   color: #656464;
 }
+
 p {
   margin-left: 20rem;
 }
@@ -64,13 +65,14 @@ p {
   margin-right: 63rem;
   border-style: dashed;
 }
-.avatar-container p{
+
+.avatar-container p {
   transform: translatey(-7rem);
   margin-left: -30rem;
   color: #939191;
 }
 
-.avatar-container a{
+.avatar-container a {
   transform: translatey(-7rem);
   margin-right: 38rem;
 }
@@ -119,7 +121,7 @@ p {
   border: 1px solid #c6c6c6;
   vertical-align: middle;
   background-color: #fff;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.05);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -166,4 +168,26 @@ p {
 
 .return-page p {
   color: #9e9e9e;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: grid;
+  }
+  
+  .containers {
+    margin-left: -20.5rem;
+  }
+
+  .containers a {
+  font-size: 1.5rem;
+  width: 20rem;
+  text-align: left;
+  }
 }
