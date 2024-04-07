@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Sign Up Page</title>
 </head>
 
@@ -25,14 +26,22 @@
                 </div>
                 <div class="sign-up">
                     <h2>Sign up to Dribbble</h2>
+                    <div class="user-taken">
+                        <ul>
+                            <li>
+                                <p>Username has already been taken</p>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="form-wrapper">
                         <div class="name-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" placeholder="Name" required>
                         </div>
                         <div class="username-group">
-                            <label for="username">Username</label>
-                            <input type="text" id="username" name="username" placeholder="Username" required>
+                            <i class='bx bxs-error'></i>
+                            <label for="username">John</label>
+                            <input type="text" id="username" name="username" placeholder="John" required>
                         </div>
                     </div>
                     <label for="email">Email</label>
@@ -49,8 +58,8 @@
                         Settings.</a></label>
             </div>
             <a href="components/profile-page/profile-page.html">
-            <button type="submit" onclick="lsRememberMe()">Create
-                Account</button>
+                <button type="submit" onclick="lsRememberMe()">Create
+                    Account</button>
             </a>
             <div class="recaptcha">
                 This site is protected by reCAPTCHA and the Google<br>

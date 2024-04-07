@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Sacramento&display=swap");
 
-@media (min-width:1281px) {
-    /* hi-res laptops and desktops */
-}
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -80,8 +76,19 @@ form {
     width: 15rem;
 }
 
+.user-taken {
+    color: rgb(255, 60, 60);
+    margin-top: -2.5rem;
+    margin-bottom: 2.5rem;
+}
 
-/* Style the input fields */
+.username-group ::placeholder {
+    color: red;
+}
+
+.username-group input[type="text"] {
+    background: rgb(247, 215, 215);
+}
 
 .sign-up-form label {
     font-weight: 700;
@@ -111,6 +118,16 @@ input[type="password"] {
     transform: translatex(5rem);
 }
 
+.username-group i {
+    color: red;
+
+}
+
+.username-group::placeholder {
+    background-color: red;
+
+}
+
 .form-wrapper {
     display: flex;
 }
@@ -119,11 +136,8 @@ input[type="password"] {
     width: 11.8rem;
 }
 
-
-/* Style the submit button */
-
 button {
-    background-color: #fb1671;
+    background-color: #fe79ae;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -138,10 +152,9 @@ button {
 }
 
 button:hover {
+    background-color: #fb1671;
     opacity: 1;
 }
-
-/* Style the text under the input fields */
 
 .smallprint {
     font-size: 1rem;
@@ -149,34 +162,18 @@ button:hover {
     width: 28rem;
 }
 
-/* Style the reCAPTCHA text */
-
 .recaptcha {
     font-size: 0.8rem;
     text-align: left;
 }
 
-@media (min-width:480px) {
-    /* smartphones, Android phones, landscape iPhone */
-}
-
-@media (min-width:801px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width:1025px) {
-    /* big landscape tablets, laptops, and desktops */
-}
-
 @media only screen and (max-width: 600px) {
     @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Sacramento&display=swap");
 
-    /* Global styles */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* Add this line */
     }
 
     body {
@@ -214,6 +211,7 @@ button:hover {
         margin-left: 4rem;
         transform: translatex(5.5rem);
     }
+
     .illustration {
         text-align: center;
         color: #87620a;
@@ -241,6 +239,13 @@ button:hover {
         font-size: 12px;
     }
 
+    .user-taken {
+        font-size: 1.2rem;
+        width: 20rem;
+        margin-left: 4rem;
+
+    }
+
     .sign-up-form label {
         font-weight: 700;
         margin-left: 2rem;
@@ -252,13 +257,17 @@ button:hover {
         font-weight: 800;
         font-size: 1.6rem;
         margin-bottom: 5rem;
-        margin-left: 5rem;
+        margin-left: 5.3rem;
     }
 
     input[type="text"],
     input[type="password"] {
         width: 22.5rem;
         margin-left: 2rem;
+    }
+
+    .name-group {
+        margin-bottom: -1.5rem;
     }
 
     .username-group {
@@ -273,6 +282,7 @@ button:hover {
     .form-wrapper input {
         width: 22.5rem;
     }
+
     button {
         width: 22.5rem;
         margin-left: 2rem;
@@ -283,16 +293,18 @@ button:hover {
         width: 20rem;
         margin-left: 2rem;
     }
-    input[type="checkbox"]{
-        width: 15px; /*Desired width*/
-        height: 15px; /*Desired height*/
-      }
-      
+
+    input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+    }
+
     .smallprint .type {
         font-size: 1rem;
         width: 20rem;
         margin-left: 2rem;
     }
+
     .smallprint label {
         font-size: 1rem;
         margin-bottom: 1.5rem;

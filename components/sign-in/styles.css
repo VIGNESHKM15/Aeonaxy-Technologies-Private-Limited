@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Sacramento&display=swap");
 
-@media (min-width:1281px) {
-    /* hi-res laptops and desktops */
-}
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -75,19 +71,11 @@ form {
     height: 100%;
 }
 
-.already-member {
-    margin-left: 30rem;
-    width: 15rem;
-}
-
-
-/* Style the input fields */
-
-.sign-up-form label {
+.sign-in-form label {
     font-weight: 700;
 }
 
-.sign-up h2 {
+.sign-in h2 {
     margin-top: 3rem;
     font-weight: 800;
     font-size: x-large;
@@ -106,24 +94,8 @@ input[type="password"] {
     margin-bottom: 1.5rem;
 }
 
-.username-group {
-    margin-left: -2.7rem;
-    transform: translatex(5rem);
-}
-
-.form-wrapper {
-    display: flex;
-}
-
-.form-wrapper input {
-    width: 11.8rem;
-}
-
-
-/* Style the submit button */
-
 button {
-    background-color: #fb1671;
+    background-color: #fe79ae;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -138,10 +110,9 @@ button {
 }
 
 button:hover {
+    background-color: #fb1671;
     opacity: 1;
 }
-
-/* Style the text under the input fields */
 
 .smallprint {
     font-size: 1rem;
@@ -149,34 +120,29 @@ button:hover {
     width: 28rem;
 }
 
-/* Style the reCAPTCHA text */
+input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+}
 
-.recaptcha {
-    font-size: 0.8rem;
+.forgot-password {
+    width: 20rem;
+    margin-top: -1.1rem;
+    margin-left: 21rem;
+}
+
+.new-member {
+    font-size: 1rem;
     text-align: left;
-}
-
-@media (min-width:480px) {
-    /* smartphones, Android phones, landscape iPhone */
-}
-
-@media (min-width:801px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width:1025px) {
-    /* big landscape tablets, laptops, and desktops */
 }
 
 @media only screen and (max-width: 600px) {
     @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Sacramento&display=swap");
 
-    /* Global styles */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* Add this line */
     }
 
     body {
@@ -208,12 +174,6 @@ button:hover {
         margin-left: -4rem;
     }
 
-    .already-member {
-        font-size: 19px;
-        margin-top: 1rem;
-        margin-left: 4rem;
-        transform: translatex(5.5rem);
-    }
     .illustration {
         text-align: center;
         color: #87620a;
@@ -241,12 +201,12 @@ button:hover {
         font-size: 12px;
     }
 
-    .sign-up-form label {
+    .sign-in-form label {
         font-weight: 700;
         margin-left: 2rem;
     }
 
-    .sign-up h2 {
+    .sign-in h2 {
         width: 20rem;
         margin-top: 3rem;
         font-weight: 800;
@@ -260,7 +220,9 @@ button:hover {
         width: 22.5rem;
         margin-left: 2rem;
     }
+
     button {
+        font-weight: bolder;
         width: 22.5rem;
         margin-left: 2rem;
     }
@@ -270,17 +232,20 @@ button:hover {
         width: 20rem;
         margin-left: 2rem;
     }
-    input[type="checkbox"]{
-        width: 15px; /*Desired width*/
-        height: 15px; /*Desired height*/
-      }
-.forgot-password {
-    width: 10rem;
-    margin-left: 13rem;
-    margin-top: -1.1rem;
 
-}
-    .recaptcha {
+    input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+    }
+
+    .forgot-password {
+        width: 10rem;
+        margin-left: 13rem;
+        margin-top: -1.1rem;
+
+    }
+
+    .new-member {
         font-size: 1.1rem;
         width: 20rem;
         margin-top: 1.1rem;
