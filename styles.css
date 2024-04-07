@@ -191,21 +191,6 @@ button:hover {
         max-height: none;
     }
 
-    .left-section {
-        width: 10%;
-        /* Remove margin-left */
-    }
-
-    .right-section {
-        margin-left: -10rem;
-        /* Remove margin-left */
-    }
-
-    form {
-        height: auto;
-        /* Remove height */
-    }
-
     .illustration img {
         width: 420px;
         margin-left: 3rem;
@@ -220,25 +205,24 @@ button:hover {
 
     .right-section {
         width: 1px;
-        margin-left: -6rem;
+        margin-left: -4rem;
     }
 
     .already-member {
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 1rem;
-        margin-left: 10rem;
+        margin-left: 4rem;
+        transform: translatex(5.5rem);
     }
     .illustration {
         text-align: center;
         color: #87620a;
     }
 
-    /* Style the input fields */
     .illustration h2 {
         font-size: 1.3rem;
-        margin-left: -4rem;
+        margin-left: 0.5rem;
         margin-bottom: -2rem;
-        transform: translatex(-5rem);
     }
 
     .illustration a1 {
@@ -259,6 +243,7 @@ button:hover {
 
     .sign-up-form label {
         font-weight: 700;
+        margin-left: 2rem;
     }
 
     .sign-up h2 {
@@ -267,11 +252,13 @@ button:hover {
         font-weight: 800;
         font-size: x-large;
         margin-bottom: 5rem;
+        margin-left: 5rem;
     }
 
     input[type="text"],
     input[type="password"] {
         width: 22.5rem;
+        margin-left: 2rem;
     }
 
     .username-group {
@@ -288,13 +275,24 @@ button:hover {
     }
     button {
         width: 22.5rem;
+        margin-left: 2rem;
     }
 
     .smallprint {
         font-size: 1rem;
         width: 20rem;
+        margin-left: 2rem;
     }
-
+    input[type="checkbox"]{
+        width: 15px; /*Desired width*/
+        height: 15px; /*Desired height*/
+      }
+      
+    .smallprint .type {
+        font-size: 1rem;
+        width: 20rem;
+        margin-left: 2rem;
+    }
     .smallprint label {
         font-size: 1rem;
         margin-bottom: 1.5rem;
@@ -304,5 +302,6 @@ button:hover {
         font-size: 0.8rem;
         width: 20rem;
         margin-bottom: 2rem;
+        margin-left: 2rem;
     }
 }
