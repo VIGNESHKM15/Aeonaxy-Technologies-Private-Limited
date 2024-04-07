@@ -187,11 +187,8 @@ button:hover {
         display: flex;
         flex-direction: column;
         width: 5%;
-        /* Change to 100% for mobile */
         margin-left: 20rem;
-        /* Remove margin-left */
         max-height: none;
-        /* Remove max-height */
     }
 
     .left-section {
@@ -210,13 +207,14 @@ button:hover {
     }
 
     .illustration img {
-        width: 330px;
+        width: 420px;
+        margin-left: 3rem;
         margin-bottom: 2rem;
         transform: translatey(3rem);
     }
 
     .left-section {
-        width: 344px;
+        width: 468px;
         margin-left: -8rem;
     }
 
@@ -240,6 +238,7 @@ button:hover {
         font-size: 1.3rem;
         margin-left: -4rem;
         margin-bottom: -2rem;
+        transform: translatex(-5rem);
     }
 
     .illustration a1 {
@@ -272,7 +271,7 @@ button:hover {
 
     input[type="text"],
     input[type="password"] {
-        width: 18.5rem;
+        width: 22.5rem;
     }
 
     .username-group {
@@ -288,7 +287,7 @@ button:hover {
         width: 22.5rem;
     }
     button {
-        width: 18.5rem;
+        width: 22.5rem;
     }
 
     .smallprint {
