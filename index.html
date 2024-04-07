@@ -36,37 +36,38 @@
                     <div class="form-wrapper">
                         <div class="name-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <input type="text" id="name" name="name" placeholder="John">
                         </div>
                         <div class="username-group">
                             <i class='bx bxs-error'></i>
-                            <label for="username">John</label>
-                            <input type="text" id="username" name="username" placeholder="John" required>
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" placeholder="John">
                         </div>
                     </div>
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="account@reforedesign" required>
+                    <input type="text" id="email" name="email" placeholder="account@reforedesign">
                     <label for="psw">Password</label>
-                    <input type="password" id="psw" name="psw" placeholder="6+ characters" required>
+                    <input type="password" id="psw" name="psw" placeholder="6+ characters">
                 </div>
             </div>
             <div class="smallprint">
-                <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                <input type="checkbox" id="rememberMe">
                 <label for="rememberMe">
                     Creating an account means you're okay with our <a href="#">Terms of Service</a>, <a href="#">Privacy
                         Policy</a>, and our default <a href="#">Notification
                         Settings.</a></label>
             </div>
-            <a href="components/profile-page/profile-page.html">
-                <button type="submit" onclick="lsRememberMe()">Create
-                    Account</button>
-            </a>
             <div class="recaptcha">
                 This site is protected by reCAPTCHA and the Google<br>
                 <a href="#">Privacy Policy</a> and <a href="#">Terms of
                     Service</a> apply.
             </div>
         </form>
+        <div class="button-box">
+            <a href="/components/profile-page/profile-page.html">
+                <button type="submit">Create Account</button>
+            </a>
+        </div>
     </div>
 </body>
 

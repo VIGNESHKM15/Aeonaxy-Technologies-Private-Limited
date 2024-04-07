@@ -118,14 +118,16 @@ input[type="password"] {
     transform: translatex(5rem);
 }
 
+.name-group ::placeholder {
+    color: rgb(0, 0, 0);
+}
+
 .username-group i {
     color: red;
-
 }
 
 .username-group::placeholder {
     background-color: red;
-
 }
 
 .form-wrapper {
@@ -134,6 +136,15 @@ input[type="password"] {
 
 .form-wrapper input {
     width: 11.8rem;
+}
+
+.button-box {
+    width: 30rem;
+    margin-left: -45rem;
+    margin-right: 15rem;
+    margin-bottom: 100rem;
+    transform: translatex(-10rem);
+    transform: translatey(34rem);
 }
 
 button {
@@ -165,6 +176,7 @@ button:hover {
 .recaptcha {
     font-size: 0.8rem;
     text-align: left;
+    margin-top: 5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -285,7 +297,13 @@ button:hover {
 
     button {
         width: 22.5rem;
-        margin-left: 2rem;
+    }
+
+    .button-box {
+       margin-left: -2rem;
+       margin-bottom: 100rem;
+       transform: translatex(-10rem);
+       transform: translatey(34rem);
     }
 
     .smallprint {
