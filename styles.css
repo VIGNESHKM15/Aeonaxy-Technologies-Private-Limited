@@ -201,7 +201,7 @@ button:hover {
     }
 
     .illustration img {
-        width: 417px;
+        width: 416px;
         margin-left: 4rem;
         margin-bottom: 2rem;
         transform: translatey(3rem);
@@ -231,12 +231,12 @@ button:hover {
 
     .illustration h2 {
         font-size: 1.35rem;
-        margin-left: 0.8rem;
+        margin-left: 0.6rem;
         margin-bottom: -2rem;
     }
 
     .illustration a1 {
-        margin-right: 10rem;
+        margin-right: 10.5rem;
     }
 
     .illustration a {
@@ -245,7 +245,7 @@ button:hover {
 
     .illustration p {
         margin-top: 1rem;
-        margin-bottom: -0.8rem;
+        margin-bottom: -0.9rem;
         margin-right: 0.4rem;
         transform: translatex(-5rem);
         font-size: 13px;
