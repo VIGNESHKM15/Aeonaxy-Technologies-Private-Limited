@@ -201,8 +201,8 @@ button:hover {
     }
 
     .illustration img {
-        width: 420px;
-        margin-left: 3rem;
+        width: 485px;
+        margin-left: -1.5rem;
         margin-bottom: 2rem;
         transform: translatey(3rem);
     }
@@ -228,13 +228,9 @@ button:hover {
     }
 
     .illustration h2 {
-        font-size: 1.3rem;
-        margin-left: 0.5rem;
+        font-size: 1.5rem;
+        margin-left: -2.3rem;
         margin-bottom: -2rem;
-    }
-
-    .illustration a1 {
-        margin-right: 10rem;
     }
 
     .illustration a {
@@ -244,21 +240,21 @@ button:hover {
     .illustration p {
         margin-top: 1rem;
         margin-bottom: -1rem;
-        margin-right: 2rem;
+        margin-right: 6rem;
         transform: translatex(-5rem);
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .user-taken {
-        font-size: 1.2rem;
         width: 20rem;
-        margin-left: 4rem;
-
+        margin-left: 5rem;
+        font-size: 1.3rem;
     }
 
     .sign-up-form label {
         font-weight: 700;
         margin-left: 2rem;
+        font-size: larger;
     }
 
     .sign-up h2 {
@@ -267,13 +263,14 @@ button:hover {
         font-weight: 800;
         font-size: 1.6rem;
         margin-bottom: 5rem;
-        margin-left: 5.3rem;
+        margin-left: 7rem;
     }
 
     input[type="text"],
     input[type="password"] {
         width: 26.2rem;
         margin-left: 2rem;
+        font-size: 1.3rem;
     }
 
     .name-group {
@@ -290,46 +287,41 @@ button:hover {
     }
 
     .form-wrapper input {
-        width: 22.5rem;
+        width: 26.2rem;
+        font-size: 1.3rem;
     }
 
     button {
-        width: 22.5rem;
+        width: 26.2rem;
+        margin-left: 47rem;
     }
 
     .button-box {
-       margin-left: -2rem;
-       margin-bottom: 100rem;
-       transform: translatex(-10rem);
-       transform: translatey(34rem);
+       margin-bottom: -90rem;
+       transform: translatey(-7.5rem);
     }
 
     .smallprint {
-        font-size: 1rem;
-        width: 20rem;
-        margin-left: 2rem;
+        margin-left: 2.2rem;
+        width: 26rem;
     }
 
     input[type="checkbox"] {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
 
     .smallprint .type {
         font-size: 1rem;
-        width: 20rem;
-        margin-left: 2rem;
     }
 
     .smallprint label {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
+        font-size: 20px;
     }
 
     .recaptcha {
-        font-size: 0.8rem;
-        width: 20rem;
-        margin-bottom: 2rem;
+        font-size: 15px;
+        width: 25rem;
         margin-left: 2rem;
     }
 }
