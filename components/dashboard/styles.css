@@ -394,9 +394,14 @@ footer {
 
     .nav-bar {
         padding: 40px;
-        margin-left: -1rem;
+        margin-left: -2rem;
+        margin-right: -0.5rem;
         margin-top: -2rem;
         margin-bottom: -4.1rem;
+    }
+
+    .footer-page {
+        margin-left: -3rem;
     }
 
     .group {
@@ -422,9 +427,14 @@ footer {
         margin-left: 20rem;
 
     }
+
+    .counts p {
+        margin-left: -10rem;
+
+    }
     
     .counts i {
-        margin-left: -10rem;
+        margin-left: -15rem;
 
     }
 }
