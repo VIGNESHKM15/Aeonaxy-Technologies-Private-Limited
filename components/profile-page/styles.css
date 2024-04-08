@@ -208,7 +208,7 @@ p {
 
   .location-section h2 {
     font-size: 1.5rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
   }
 
@@ -240,26 +240,38 @@ p {
 
   .avatar-upload {
     position: relative;
-    left: 965px;
+    left: 968px;
     width: 150px;
     height: 150px;
     margin-left: 5rem;
     margin-top: 1rem;
   }
 
+  .avatar-preview {
+    position: relative;
+    left: 1000px;
+    width: 160px;
+    height: 160px;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+  }
   button {
     position: relative;
     left: 275px;
+    margin-bottom: 1rem;
   }
 
   .return-page {
     position: relative;
-    left: 55px;
-    transform: translateY(2rem);
-    text-decoration: none;
+    width: 20rem;
+    margin-left: 1rem;
   }
 
   .return-page a {
+    text-decoration: none;
+  }
+
+  .return-page p {
     text-decoration: none;
   }
 }
