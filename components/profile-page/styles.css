@@ -208,13 +208,12 @@ p {
 
   .location-section h2 {
     font-size: 1.5rem;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
   }
 
   .location-section input {
     width: 13.5rem;
-    margin-bottom: 1rem;
   }
 
   .avatar-container {
@@ -254,6 +253,7 @@ p {
     height: 160px;
     margin-top: 0.8rem;
     margin-left: 1rem;
+    margin-bottom: -11rem;
   }
   button {
     position: relative;
@@ -262,16 +262,7 @@ p {
   }
 
   .return-page {
-    position: relative;
-    width: 20rem;
-    margin-left: 1rem;
+    display: none;
   }
-
-  .return-page a {
-    text-decoration: none;
-  }
-
-  .return-page p {
-    text-decoration: none;
-  }
+  
 }
