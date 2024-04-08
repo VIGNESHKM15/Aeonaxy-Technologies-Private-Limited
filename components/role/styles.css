@@ -200,8 +200,26 @@ h1 {
   margin-bottom: -5rem;
 }
 
+.return-page a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   .options {
     display: flow-root;
+    margin-bottom: -1rem;
+  }
+
+  .option {
+    margin-bottom: 6rem;
+  }
+
+  .return-page {
+    margin-bottom: 1rem;
+  }
+
+  .return-page a {
+    color: #888;
+    text-decoration: none;
   }
 }
