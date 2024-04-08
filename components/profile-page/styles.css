@@ -205,12 +205,22 @@ p {
 
   .location-section h2 {
     font-size: 1.5rem;
+    margin-top: 7rem;
     margin-bottom: 1rem;
   }
 
   .avatar-container {
     margin-left: -50rem;
+  }
 
+  .avatar-container a{
+    transform: translatex(80rem);
+    transform: translateY(2rem);
+  }
+
+  .avatar-container p {
+    margin-left: 63rem;
+    transform: translateY(2rem);
   }
 
   .avatar-section h2 {
