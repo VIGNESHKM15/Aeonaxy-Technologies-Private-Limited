@@ -180,14 +180,35 @@ p {
   body {
     display: grid;
   }
-  
-  .containers {
-    margin-left: -20.5rem;
+
+  .container {
+    font-size: 1.5rem;
+    margin-left: -33rem;
   }
 
   .containers a {
-  font-size: 1.5rem;
-  width: 20rem;
-  text-align: left;
+    font-size: 1.5rem;
+    margin-right: -5rem;
+  }
+
+  .container p {
+    font-size: 1.5rem;
+  }
+
+  .location-section {
+    width: 31.5rem;
+  }
+
+  .location-section h2 {
+    font-size: larger;
+    margin-bottom: 1rem;
+  }
+
+  .avatar-container {
+    margin-left: -40rem;
+
+  }
+  .avatar-section h2 {
+font-size: larger;
   }
 }
