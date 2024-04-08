@@ -202,7 +202,7 @@ button:hover {
 
     .illustration img {
         width: 410px;
-        margin-left: 4rem;
+        margin-left: 3rem;
         margin-bottom: 2rem;
         transform: translatey(3rem);
     }
@@ -231,12 +231,12 @@ button:hover {
 
     .illustration h2 {
         font-size: 1.35rem;
-        margin-left: 2rem;
+        margin-left: 0.5rem;
         margin-bottom: -2rem;
     }
 
     .illustration a1 {
-        margin-right: 8rem;
+        margin-right: 9rem;
     }
 
     .illustration a {
