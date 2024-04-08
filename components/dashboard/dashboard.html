@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dribbble</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -15,12 +19,17 @@
     </div>
     <header>
         <nav>
-            <ul>
-                <li><a href="#">Inspiration</a></li>
-                <li><a href="#">Find Work</a></li>
-                <li><a href="#">Learn Design</a></li>
-                <li><a href="#">Go Pro</a></li>
-                <li><a href="#">Hire Designers</a></li>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">Find Work</a></li>
+                    <li><a href="#">Learn Design</a></li>
+                    <li><a href="#">Go Pro</a></li>
+                    <li><a href="#">Hire Designers</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
             </ul>
         </nav>
         <div class="group">
@@ -64,96 +73,97 @@
             <p>Wrong email address? <a href="#">Change it</a>.</p>
         </div>
     </section>
-    
+
 
     <div class="footer-page">
-    <div class="links">
-        <div class="social-content">
-            <a>dribbble</a>
-            <p>Dribbble is the world's leading community for creatives to share, grow, and get hired.</p>
-            <i class='bx bx-basketball' ></i>
-            <i class='bx bxl-twitter' ></i>
-            <i class='bx bxl-facebook-square'></i>
-            <i class='bx bxl-instagram' ></i>
-            <i class='bx bxl-pinterest' ></i>
-          </div>
-        <div class="column">
-            <h3>For Designers</h3>
-            <ul>
-                <li><a href="#">Go Pro!</a></li>
-                <li><a href="#">Explore Design Work</a></li>
-                <li><a href="#">Design Blog</a></li>
-                <li><a href="#">Overtime Podcast</a></li>
-                <li><a href="#">Playoffs</a></li>
-                <li><a href="#">Weekly Warm-Up</a></li>
-                <li><a href="#">Refer a Friend</a></li>
-                <li><a href="#">Code of Conduct</a></li>
-            </ul>
+        <div class="links">
+            <div class="social-content">
+                <a>dribbble</a>
+                <p>Dribbble is the world's leading community for creatives to share, grow, and get hired.</p>
+                <i class='bx bx-basketball'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-facebook-square'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-pinterest'></i>
+            </div>
+            <div class="column">
+                <h3>For Designers</h3>
+                <ul>
+                    <li><a href="#">Go Pro!</a></li>
+                    <li><a href="#">Explore Design Work</a></li>
+                    <li><a href="#">Design Blog</a></li>
+                    <li><a href="#">Overtime Podcast</a></li>
+                    <li><a href="#">Playoffs</a></li>
+                    <li><a href="#">Weekly Warm-Up</a></li>
+                    <li><a href="#">Refer a Friend</a></li>
+                    <li><a href="#">Code of Conduct</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Hire Designers</h3>
+                <ul>
+                    <li><a href="#">Post a Job Opening</a></li>
+                    <li><a href="#">Post a Freelance Project</a></li>
+                    <li><a href="#">Search for Designers</a></li>
+                </ul>
+                <h3>Brands</h3>
+                <ul>
+                    <li><a href="#">Advertise with Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Directories</h3>
+                <ul>
+                    <li><a href="#">Design Jobs</a></li>
+                    <li><a href="#">Designers for Hire</a></li>
+                    <li><a href="#">Freelance Designers for Hire</a></li>
+                    <li><a href="#">Tags</a></li>
+                    <li><a href="#">Places</a></li>
+                </ul>
+                <h3>Design assets</h3>
+                <ul>
+                    <li><a href="#">Dribbble Marketplace</a></li>
+                    <li><a href="#">Creative Market</a></li>
+                    <li><a href="#">Fontspring</a></li>
+                    <li><a href="#">Font Squirrel</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Design Resources</h3>
+                <ul>
+                    <li><a href="#">Freelancing</a></li>
+                    <li><a href="#">Design Hiring</a></li>
+                    <li><a href="#">Design Portfolio</a></li>
+                    <li><a href="#">Design Education</a></li>
+                    <li><a href="#">Creative Process</a></li>
+                    <li><a href="#">Design Industry Trends</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="column">
-            <h3>Hire Designers</h3>
-            <ul>
-                <li><a href="#">Post a Job Opening</a></li>
-                <li><a href="#">Post a Freelance Project</a></li>
-                <li><a href="#">Search for Designers</a></li>
-            </ul>
-            <h3>Brands</h3>
-            <ul>
-                <li><a href="#">Advertise with Us</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h3>Company</h3>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Media Kit</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h3>Directories</h3>
-            <ul>
-                <li><a href="#">Design Jobs</a></li>
-                <li><a href="#">Designers for Hire</a></li>
-                <li><a href="#">Freelance Designers for Hire</a></li>
-                <li><a href="#">Tags</a></li>
-                <li><a href="#">Places</a></li>
-            </ul>
-            <h3>Design assets</h3>
-            <ul>
-                <li><a href="#">Dribbble Marketplace</a></li>
-                <li><a href="#">Creative Market</a></li>
-                <li><a href="#">Fontspring</a></li>
-                <li><a href="#">Font Squirrel</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h3>Design Resources</h3>
-            <ul>
-                <li><a href="#">Freelancing</a></li>
-                <li><a href="#">Design Hiring</a></li>
-                <li><a href="#">Design Portfolio</a></li>
-                <li><a href="#">Design Education</a></li>
-                <li><a href="#">Creative Process</a></li>
-                <li><a href="#">Design Industry Trends</a></li>
-            </ul>
-        </div>
+        <hr>
+        <footer>
+            <div class="rights">
+                <p>&copy; 2023 Dribbble. All rights reserved.</p>
+            </div>
+            <div class="counts">
+                <p><span>20,501,853</span> shots dribbbled</p><i class='bx bx-basketball'></i>
+            </div>
+        </footer>
     </div>
-    <hr>
-    <footer>
-        <div class="rights">
-        <p>&copy; 2023 Dribbble. All rights reserved.</p>
-        </div>
-        <div class="counts">
-        <p><span>20,501,853</span> shots dribbbled</p><i class='bx bx-basketball' ></i>
-        </div>
-    </footer>
-</div>
 </body>
+
 </html>
