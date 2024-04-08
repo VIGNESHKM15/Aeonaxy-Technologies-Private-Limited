@@ -235,18 +235,14 @@ p {
     transform: translateY(2rem);
   }
 
-  .avatar-upload {
-    position: fixed;
-    top: 10;
-    left: 35px;
-  }
-
   .avatar-section h2 {
     font-size: 1.5rem;
     margin-left: 17.5rem;
   }
 
   .avatar-upload {
+    position: relative;
+    left: 965px;
     width: 150px;
     height: 150px;
     margin-left: 5rem;
