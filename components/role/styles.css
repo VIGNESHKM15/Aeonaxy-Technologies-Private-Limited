@@ -214,6 +214,10 @@ h1 {
     margin-bottom: 6rem;
   }
 
+  .container {
+margin-top: 4rem;
+  }
+
   .return-page {
     margin-bottom: 1rem;
   }
@@ -221,5 +225,13 @@ h1 {
   .return-page a {
     color: #888;
     text-decoration: none;
+  }
+
+  .arrow-circle {
+    transform: translatex(-0.5rem);
+  }
+
+  .illustration {
+    transform: translatey(3.5rem);
   }
 }
