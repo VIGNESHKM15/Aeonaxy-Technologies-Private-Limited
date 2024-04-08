@@ -395,9 +395,25 @@ footer {
     .nav-bar {
         padding: 40px;
         margin-left: -2rem;
-        margin-right: -0.5rem;
+        margin-right: -0.6rem;
         margin-top: -2rem;
-        margin-bottom: -4.1rem;
+        margin-bottom: -6rem;
+    }
+
+    .email-content1 p {
+        font-size: 1.1rem;
+    }
+
+    .email a {
+        font-size: 1.1rem;
+    }
+
+    .section p {
+        font-size: 1.1rem;
+    }
+
+    .resend-mail p {
+        font-size: 1.1rem;
     }
 
     .footer-page {
@@ -406,21 +422,26 @@ footer {
 
     .group {
         width: 100%;
-        margin-left: 2rem;
+        margin-left: 5rem;
+        transform: translateY(2.3rem);
     }
 
     .briefcase-logo img {
+        display: none;
         margin-left: 5rem;
+        transform: translateY(2rem);
     }
 
     .profile-logo img {
         margin-left: 0.5rem;
         width: 4rem;
         height: 4rem;
+        transform: translateY(2.1rem);
     }
 
     .finish-btn {
-        margin-left: 2rem;
+        margin-left: 8rem;
+        transform: translateY(4rem);
     }
 
     .counts {
@@ -429,12 +450,40 @@ footer {
     }
 
     .counts p {
-        margin-left: -10rem;
-
+        margin-left: -24rem;
+margin-top: 3rem;
+margin-bottom: -2rem;
     }
     
     .counts i {
-        margin-left: -15rem;
-
+        font-size: 1.5rem;
+        margin-left: -8rem;
+transform: translateY(0.4rem);
     }
+
+    .social-content {
+        margin-left: -5rem;
+margin-bottom: 3rem;
+    }
+
+    .links {
+        display: flex;
+        margin-left: 4rem;
+    }
+
+    .column {
+        font-size: small;
+        margin-right: 2rem;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+
+    .column ul li {
+        margin-bottom: 2px;
+    }
+
+    .rights {
+margin-right: 0.1rem;
+    }
+
 }
