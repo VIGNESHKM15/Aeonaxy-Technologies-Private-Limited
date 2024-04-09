@@ -197,19 +197,20 @@ p {
     border-radius: 6px;
     justify-content: center;
     align-items: center;
-    margin-top: -3.7rem;
+    margin-top: -3.9rem;
     margin-bottom: 0.7rem;
-    transform: translatex(3rem);
+    transform: translatex(5rem);
   }
-  
+
   .arrow {
     color: #000000;
     font-size: 22px;
   }
-  
+
   .arrow-circle a {
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
   }
+
   .container {
     font-size: 1.5rem;
     margin-left: -33rem;
@@ -218,7 +219,6 @@ p {
   .containers a {
     font-size: 1.2rem;
     margin-left: 32.5rem;
-
   }
 
   .container p {
@@ -280,6 +280,7 @@ p {
     margin-left: 1rem;
     margin-bottom: -11rem;
   }
+
   button {
     position: relative;
     left: 275px;
@@ -291,17 +292,17 @@ p {
   }
 
   .illustration {
-    color: #000000;
-    transform: translatey(-0.3rem);
-    margin-left: 7rem;
+    font-weight: 500;
+    color: #ffffff;
+    transform: translatey(-0.5rem);
+    margin-left: 9rem;
     font-size: 2.3rem;
   }
 
   .nav-bar {
-  background-color: #fe79ae;
-  padding: 7px;
-  margin-left: -2rem;
-  margin-right: -2rem;
-}
-  
+    background-color: #fe79ae;
+    padding: 7px;
+    margin-left: -4rem;
+  }
+
 }

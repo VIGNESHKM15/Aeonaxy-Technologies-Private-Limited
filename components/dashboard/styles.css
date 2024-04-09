@@ -361,15 +361,17 @@ footer {
         --color2: #fe79ae;
     }
 
-    
+
     .column ul {
-        display: none; /* Hide child links by default */
+        display: none;
+        /* Hide child links by default */
     }
 
     .column.active ul {
-        display: block; /* Show child links when parent link is active */
+        display: block;
+        /* Show child links when parent link is active */
     }
-    
+
     .menu {
         flex-direction: column;
         align-items: center;
@@ -457,7 +459,6 @@ footer {
     .counts {
         margin-left: 20rem;
         margin-bottom: 2rem;
-
     }
 
     .counts p {
@@ -501,7 +502,7 @@ footer {
         margin-bottom: 4rem;
     }
 
-    .verification-section h2{
+    .verification-section h2 {
         margin-top: 1rem;
     }
 

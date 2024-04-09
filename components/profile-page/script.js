@@ -4,7 +4,7 @@ const avatarInput = document.getElementById('avatar-input');
 const chooseImageBtn = document.getElementById('choose-image-btn');
 
 // Add an event listener to the choose image button
-chooseImageBtn.addEventListener('click', function() {
+chooseImageBtn.addEventListener('click', function () {
   // Trigger a click event on the file input
   avatarInput.click();
 });
@@ -13,7 +13,7 @@ chooseImageBtn.addEventListener('click', function() {
 const avatarContainer = document.querySelector('.avatar-container');
 
 // Add an event listener to the file input
-avatarInput.addEventListener('change', function() {
+avatarInput.addEventListener('change', function () {
   // Get the selected file
   const file = this.files[0];
 
@@ -21,7 +21,7 @@ avatarInput.addEventListener('change', function() {
   const reader = new FileReader();
 
   // When the file has been read
-  reader.onload = function() {
+  reader.onload = function () {
     // Create a new image element
     const img = document.createElement('img');
     img.src = reader.result;
@@ -45,13 +45,13 @@ avatarInput.addEventListener('change', function() {
 const pressReturnText = document.getElementById('press-return-text');
 
 // Add an event listener to the choose image button
-chooseImageBtn.addEventListener('click', function() {
+chooseImageBtn.addEventListener('click', function () {
   // Trigger a click event on the file input
   avatarInput.click();
 });
 
 // Add an event listener to the file input
-avatarInput.addEventListener('change', function() {
+avatarInput.addEventListener('change', function () {
   // Get the selected file
   const file = this.files[0];
 
@@ -65,8 +65,8 @@ avatarInput.addEventListener('change', function() {
   // Your existing code for handling the image preview goes here
 });
 
-window.onload = function() {
-  document.getElementById('imageForm').onsubmit = function() {
+window.onload = function () {
+  document.getElementById('imageForm').onsubmit = function () {
     // Check if an image is selected
     if (!document.getElementById('image').value) {
       alert('Please select an image.');

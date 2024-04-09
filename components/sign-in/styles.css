@@ -137,7 +137,6 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 600px) {
-    @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Sacramento&display=swap");
 
     * {
         margin: 0;
