@@ -194,21 +194,21 @@ button:hover {
     .container {
         display: flex;
         flex-direction: column;
-        width: 5%;
-        margin-left: 20rem;
-        max-height: none;
+        width: 5rem;
+        margin-left: -10rem;
     }
 
     .illustration img {
-        width: 410px;
-        margin-left: 3rem;
+        width: 390px;
+        margin-left: 6.8rem;
         margin-bottom: 2rem;
         transform: translatey(3rem);
     }
 
     .left-section {
-        width: 480px;
-        margin-left: -8.7rem;
+        width: 500px;
+        margin-left: -9.7rem;
+        background-color: #f2d184;
     }
 
     .right-section {
@@ -220,7 +220,7 @@ button:hover {
         width: 15rem;
         font-size: 18px;
         margin-top: 1rem;
-        transform: translatex(-13.7rem);
+        transform: translatex(-14.7rem);
     }
 
     .illustration {
@@ -230,12 +230,12 @@ button:hover {
 
     .illustration h2 {
         font-size: 1.35rem;
-        margin-left: 0.5rem;
+        margin-left: 4.5rem;
         margin-bottom: -2rem;
     }
 
     .illustration a1 {
-        margin-right: 9rem;
+        margin-right: 3.8rem;
     }
 
     .illustration a {
@@ -245,7 +245,7 @@ button:hover {
     .illustration p {
         margin-top: 1rem;
         margin-bottom: -1rem;
-        margin-right: 1rem;
+        margin-right: -4rem;
         transform: translatex(-5rem);
         font-size: 12px;
     }
@@ -258,7 +258,8 @@ button:hover {
 
     .sign-up-form label {
         font-weight: 700;
-        margin-left: 8rem;
+        width: 20rem;
+        margin-left: 10rem;
     }
 
     .sign-up h2 {
@@ -271,8 +272,8 @@ button:hover {
 
     input[type="text"],
     input[type="password"] {
-        width: 22.4rem;
-        margin-left: 8rem;
+        width: 20.4rem;
+        margin-left: 10rem;
     }
 
     .name-group {
@@ -289,12 +290,12 @@ button:hover {
     }
 
     .form-wrapper input {
-        width: 22.5rem;
+        width: 20.4rem;
     }
 
     button {
-        width: 22.4rem;
-        margin-left: 43rem;
+        width: 20.4rem;
+        margin-left: 45rem;
     }
 
     .button-box {
@@ -303,9 +304,9 @@ button:hover {
     }
 
     .smallprint {
-        font-size: 1.1rem;
-        width: 22.4rem;
-        margin-left: 8rem;
+        font-size: 0.9rem;
+        width: 20.4rem;
+        margin-left: 10rem;
     }
 
     input[type="checkbox"] {
@@ -314,9 +315,9 @@ button:hover {
     }
 
     .recaptcha {
-        font-size: 0.9rem;
-        width: 23rem;
-        margin-left: 8rem;
+        font-size: 0.8rem;
+        width: 20.4rem;
+        margin-left: 10rem;
         margin-bottom: 2rem;
     }
 }
