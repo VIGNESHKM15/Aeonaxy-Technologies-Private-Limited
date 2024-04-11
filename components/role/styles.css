@@ -203,6 +203,8 @@ h1 {
   .options {
     display: flow-root;
     margin-bottom: -1rem;
+    width: 110%;
+    margin-left: -0.9rem;
   }
 
   .option {

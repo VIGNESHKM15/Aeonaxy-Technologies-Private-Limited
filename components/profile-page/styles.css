@@ -213,22 +213,22 @@ p {
 
   .container {
     font-size: 1.5rem;
-    margin-left: -33rem;
+    margin-left: -35rem;
   }
 
   .containers a {
-    font-size: 1.2rem;
-    margin-left: 32.5rem;
+    font-size: 1.1rem;
+    margin-left: 34.5rem;
   }
 
   .container p {
-    font-size: 1.2rem;
-    width: 20rem;
-    margin-left: 32.5rem;
+    font-size: 1.1rem;
+    width: 19rem;
+    margin-left: 34.5rem;
   }
 
   .location-section {
-    margin-left: 36.5rem;
+    margin-left: 38rem;
   }
 
   .location-section h2 {
@@ -247,19 +247,19 @@ p {
 
   .avatar-container a {
     position: relative;
-    left: 810px;
+    left: 825px;
     transform: translateY(1rem);
   }
 
   .avatar-container p {
     font-size: 1.2rem;
-    margin-left: 63rem;
+    margin-left: 65rem;
     transform: translateY(2rem);
   }
 
   .avatar-section h2 {
     font-size: 1.5rem;
-    margin-left: 17.5rem;
+    margin-left: 18.7rem;
   }
 
   .avatar-upload {
@@ -267,23 +267,23 @@ p {
     left: 968px;
     width: 150px;
     height: 150px;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-top: 1rem;
   }
 
   .avatar-preview {
     position: relative;
-    left: 1000px;
-    width: 160px;
-    height: 160px;
+    left: 968px;
+    width: 150px;
+    height: 150px;
     margin-top: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 7rem;
     margin-bottom: -11rem;
   }
 
   button {
     position: relative;
-    left: 275px;
+    left: 295px;
     margin-bottom: 1rem;
   }
 
