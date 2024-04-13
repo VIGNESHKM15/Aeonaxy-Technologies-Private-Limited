@@ -220,7 +220,7 @@ button:hover {
         width: 15rem;
         font-size: 18px;
         margin-top: 1rem;
-        transform: translatex(-14.7rem);
+        transform: translatex(-14rem);
     }
 
     .illustration {
@@ -253,7 +253,7 @@ button:hover {
     .user-taken {
         font-size: 1.1rem;
         width: 20rem;
-        margin-left: 11rem;
+        margin-left: 12rem;
     }
 
     .sign-up-form label {
@@ -267,7 +267,7 @@ button:hover {
         margin-top: 3rem;
         font-weight: 800;
         font-size: 1.4rem;
-        margin-left: 12rem;
+        margin-left: 13rem;
     }
 
     input[type="text"],
